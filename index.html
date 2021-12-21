@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiBlogDeCafé</title>
+    <meta name="description" content="pagina web de blog de café" >
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Slabo+27px&display=swap" rel="stylesheet">
+  
+    <link rel="preload" href="normalice.css" as="style" >
+    <link rel="stylesheet" href="normalice.css">
+
+    <link rel="preload" href="css.css" as="style" >
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header class="header no-margin">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog <span class="logo__bold">DeCafé</span> </h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contácto</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+          <h2 class="no-margin">Blog de café con consejos y cursos </h2>
+          <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos </p>
+       </div>
+    </header>
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog1.webp" type="image/webp" >
+                        <img loading="lazy" class="img" src="img/blog1.jpg" alt="imagen de blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Granos de Café</h4>
+                    <p>¿Te gusta el olor del café recien hecho? ¿Cómo culparte? A todos nos encanta el
+                         olor que emana de una taza de café recien elaborado, pero ¿Sabías que existen distintos tipos de granos de café? 
+                         Enterate acá sobre sus difrencias.</p>
+                    <a href="entrada1.html" class="boton boton--primario">leer entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog2.webp" type="image/webp" >
+                        <img loading="lazy" class="img" src="img/blog2.jpg" alt="imagen de blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-marrgin">3 Deliciosas recetas de café</h4>
+                    <p>Una taza de café recien hecho puede hacerle agua la boca a cualquiera, pero tomar 
+                        siempre el  mismo café, convierte esa gloriosa bebida en algo monotono, es por
+                         eso que lo mejor es modificar un poco tu receta, y agregarle más sabor, a tu taza
+                         de café, y es que el café es tan perfecto que lo puedes combinar con muchas cosas;
+                        desde un poco de canela a un rico postre, conoce como mejorar tu receta de café y mejorar tus mañanas.</p>
+                    <a href="entrada2.html" class="boton boton--primario">leer entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog3.webp" type="image/webp" >
+                        <img loading="lazy" class="img" src="img/blog3.jpg" alt="imagen de blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-marrgin">Los beneficios del Café</h4>
+                    <p>Despertar y tomar una taza caliente de café y acompañarlo con algún aperitivo es quizás,
+                        un habito que la mayoría de nosotros tiene para comenzar el día con "el pie derecho"
+                        pues sentimos que sin esa taza de café, no comenzaríamos bien el día. Y es que está cientificamente 
+                        comprobado que consumir al menos una taza de café al día nos beneficiaria mucho, desde 
+                        poder despertar más rápido hasta lograr mejorar nuestra memoria, son algunos de los beneficios 
+                        de ingerir ésta gloriosa bebida.
+                    </p>
+                    <a href="entrada3.html" class="boton boton--primario">leer entrada</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestros Cursos y Talleres</h3>
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Técnicas de Extracción de Café</h4>
+                    <p class="widget-curso__label">Precio: <span class="widget-curso__info">Gratis</span></p>
+                    <p class="widget-curso__label">Cupos: <span class="widget-curso__info"> 20</span></p>
+                    <a href="cursos.html" class="boton boton--primario">Ver más</a>
+                </li>
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-curso__label">Precio: <span class="widget-curso__info">Gratis</span></p>
+                    <p class="widget-curso__label">Cupos: <span class="widget-curso__info"> 20</span></p>
+                    <a href="cursos.html" class="boton boton--primario">Ver más</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog <span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="nav_enlace">Nosotros</a>
+                    <a href="cursos.html" class="nav_enlace">Cursos</a>
+                    <a href="contacto.html" class="nav_enlace">Contácto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script srcset="js/modernizr.js"></script>
+</body>
+</html>
